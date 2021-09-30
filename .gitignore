@@ -129,6 +129,6 @@ dmypy.json
 
 
 
-db.sqlite3
+# db.sqlite3
 # vscode files
 .vscode/
