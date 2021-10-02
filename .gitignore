@@ -127,8 +127,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-
+# Media folder
+uploads/
 
 # db.sqlite3
-# vscode files
+## vscode files
 .vscode/
