@@ -55,6 +55,11 @@
 
 <p class="lead">{{ question.content }}</p>
 
+<iframe src="{{quiz.yt_video_url}}" style="height: 50vh;width: 100%;"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+
 {% if question.figure %}
     <img src="{{ question.figure.url }}" alt="{{ question.content }}" />
 {% endif %}

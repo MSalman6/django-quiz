@@ -75,6 +75,10 @@ class Quiz(models.Model):
         verbose_name=_("Description"),
         blank=True, help_text=_("a description of the quiz"))
 
+    yt_video_url = models.CharField(
+        verbose_name=_("Youtube Video url"),
+        max_length=2048, blank=True, null=True)
+
     url = models.SlugField(
         max_length=60, blank=False,
         help_text=_("a user friendly url"),
