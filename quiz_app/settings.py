@@ -152,3 +152,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # SITE ID
 SITE_ID = 1
+
+# All auth
+ACCOUNT_EMAIL_VERIFICATION = 'none'
