@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'django-quiz'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_903A59BF33624182AAB1588946A0948B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A62F44BCA0744A6593C18929FFBD9184 }}
